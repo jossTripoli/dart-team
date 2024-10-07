@@ -1,0 +1,41 @@
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import Link from 'next/link';
+
+// For dart academy we are using Postgresql as our database with Drizzle ORM. But for this example to keep things simple we'll use an array of objects to show abillity to interpolate data dynamically into page template instead of hardcoding
+const teamMembers = [
+  { name: 'Joss', email: 'joss@dartcollective.net', path: '/team/joss' },
+  { name: 'Daniel', email: 'email@gmail.com', path: '/team/daniel' },
+  { name: 'Kriish', email: 'email@gmail.com', path: '/team/kriish' },
+  { name: 'Benjamin', email: 'email@gmail.com Manager', path: '/team/benjamin' },
+];
+
+
+export default function Home() {
+  return (
+    <div className="min-h-screen p-8 bg-gray-50">
+      <h1 className="text-4xl font-bold text-center mb-8">Fall 2024</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {teamMembers.map((member) => (
+          <Link key={member.name} href={member.path}>
+            <Card className="hover:shadow-lg transition-shadow duration-300">
+              <CardHeader>
+                <CardTitle>{member.name}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>{member.email}</p>
+              </CardContent>
+            </Card>
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
+}
