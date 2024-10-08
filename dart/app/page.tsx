@@ -1,9 +1,6 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -21,7 +18,7 @@ const teamMembers = [
 export default function Home() {
   return (
     <div className="min-h-screen p-8 bg-gray-50">
-      <h1 className="text-4xl font-bold text-center mb-8">Fall 2024</h1>
+      <h1 className="text-4xl font-bold text-center mb-8">Our Team</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {teamMembers.map((member) => (
           <Link key={member.name} href={member.path}>

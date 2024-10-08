@@ -5,7 +5,7 @@ export const Header = () => {
     <header className="h-20 w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white flex items-center justify-between px-6 shadow-md">
       <div className="text-3xl font-bold">
         <Link href="/">
-          DART Academy Team
+          DART
         </Link>
       </div>
       <nav className="hidden md:flex space-x-6">

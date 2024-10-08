@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import Image from 'next/image';
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -83,7 +82,7 @@ const interests = [
 
 export default function JossPage() {
   return (
-    <div className="min-h-screen p-8 bg-gray-50 flex flex-col items-center">
+    <div className="min-h-screen p-8 flex flex-col items-center">
       {/* Card for Joss's Introduction */}
       <Card className="max-w-2xl w-full mb-8">
         <CardHeader>
