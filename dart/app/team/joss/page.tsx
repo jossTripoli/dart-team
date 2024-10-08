@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
@@ -48,17 +47,19 @@ const interests = [
           "I Am... Sasha Fierce",
           "BEYONCÉ",
           "The Lion King: The Gift",
+          "Rennaisance",
+          "Cowboy Carter"
         ],
       },
       {
         name: "Faouzia",
         genre: "Pop",
-        albums: ["Citizens", "Stripped"],
+        albums: ["Citizens", "Stripped", "Now or Never"],
       },
       {
         name: "Utada Hikaru",
         genre: "J-Pop",
-        albums: ["First Love", "Deep River", "Fantôme", "Hatsukoi"],
+        albums: ["First Love", "Deep River", "Exodus", "Heart Station", "Ultra Blue", "Fantôme", "Hatsukoi"],
       },
       {
         name: "Pabllo Vittar",

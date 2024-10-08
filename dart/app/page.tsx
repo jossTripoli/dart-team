@@ -9,9 +9,11 @@ import Link from 'next/link';
 // For dart academy we are using Postgresql as our database with Drizzle ORM. But for this example to keep things simple we'll use an array of objects to show abillity to interpolate data dynamically into page template instead of hardcoding
 const teamMembers = [
   { name: 'Joss', email: 'joss@dartcollective.net', path: '/team/joss' },
-  { name: 'Daniel', email: 'email@gmail.com', path: '/team/daniel' },
-  { name: 'Kriish', email: 'email@gmail.com', path: '/team/kriish' },
-  { name: 'Benjamin', email: 'email@gmail.com Manager', path: '/team/benjamin' },
+  { name: 'Daniel', email: 'dankoko100@gmail.com', path: '/team/daniel' },
+  { name: 'Kriish', email: 'kriishti@buffalo.edu', path: '/team/kriish' },
+  { name: 'Benjamin', email: 'bdfarhi@buffalo.edu', path: '/team/benjamin' },
+  { name: 'Erick', email: 'erick.tepan124@gmail.com', path: '/team/erick' },
+
 ];
 
 
