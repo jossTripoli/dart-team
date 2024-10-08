@@ -115,4 +115,29 @@ Next.js uses file-based routing, where the file and folder structure in the app 
 | tsconfig.json      | TypeScript configuration file.                                          |
 
 ## How to Create Your About Page
-Each team member should create an individual About Me page under `app/team/`. Create a new folder in `app/team/` with your name, and add a TypeScript file, e.g., `app/team/[yourname]/page.tsx`.
+Each team member should create an individual About Me page under `app/team/`. 
+
+1. **Create your page and components folder**:
+Create a new folder in `app/team/` with your name, and add a TypeScript file, e.g., `app/team/[yourname]/page.tsx`.
+
+2. **Install a Specific Component**:
+   To add a specific **shadcn/ui** component (like Accordion, Button, etc.), run the following command that will add them to components/ui folder (I already have button, card, and scroll-area):
+
+   ```bash
+   npx shadcn-ui@latest add <component>
+   ```
+
+   For example, to install the **Accordion** component, use:
+   
+   ```bash
+   npx shadcn-ui@latest add accordion
+   ```
+
+3. **Import the Component**:
+   After installing the component, import it into your page or component file. For example, to use the Accordion:
+
+   ```tsx
+   import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+   ```
+## Questions/Comments:
+  Please ask in slack if you have any questions or want to share something interesting you've learned etc.
