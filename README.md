@@ -11,10 +11,7 @@ Open a pull request on GitHub to get your code reviewed and merged when you're d
 - Include a short bio about yourself
 - Display additional information by **mapping over an array of objects**. This could include a list of your favorite things, hobbies, music you like, etc. Use a component like a **Card** or **List** to neatly display the items. 
   - showcases our ability to dynamically insert data into templates, making it easy to display content like courses and lesson pages without repeating lots of code. For simplicity, we'll use arrays for now, but on the Dart Academy platform, we utilize a PostgreSQL database to manage and display real-time data for courses, lessons, and other educational content.
-- **shadcn/ui components**: Use a variety of components on your About page and include them in a _components folder specific to your named directory.
-  - **Interactive Components (Client-side)**: Include at least 3 interactive components like **Accordion**, **Dialog**, **Dropdown Menu**, **Popover**, etc.
-  - **Static Components (Server-side)**: Include at least 3 static components like **List**, **Badge**, **Card**, **Seperator**, etc.
-  - Ensure that all components are properly styled using **Tailwind CSS** and that the interactive components are rendered on the client-side by adding `"use client";` at the top of your file where necessary.
+- **shadcn/ui components**: Use at lest **5** different shadcn components on your About page. [see directions at end on how to add them](#how-to-create-your-about-page) 
 - Make your page look unique and please feel free to explore the tech stack and add anything else you want to your page!
 
 ## Technologies Used
