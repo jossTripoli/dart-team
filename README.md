@@ -4,7 +4,7 @@ This repository contains the source code for the **Dart Academy Team Website**, 
 
 ## Due Date
 
-Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday October 12 at 11:59**
+Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday October 13 at 11:59**
 
 ## Requirements for your about page
 - Include an image of yourself. Add it to public images
@@ -73,7 +73,7 @@ Once you've finished working on your branch and are ready to merge your changes,
 git push origin [your-branch-name]
  ```
 
-Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday October 12 at 11:59**
+Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday October 13 at 11:59**
 
 ### Install Dependencies
 After cloning and creating a branch to work off of, install the project's dependencies:
