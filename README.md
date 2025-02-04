@@ -4,7 +4,7 @@ This repository contains the source code for the **Dart Academy Team Website**, 
 
 ## Due Date
 
-Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday October 13 at 11:59**
+Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday February 9 at 11:59**
 
 ## Requirements for your about page
 
@@ -59,12 +59,6 @@ Open your terminal and run the following command to clone the repository:
 git clone https://github.com/jossTripoli/dart-team.git
 ```
 
-Navigate to the project directory:
-
-```
-cd dart
-```
-
 ### Create a New Branch
 
 Before starting any work, create a new branch to keep the main branch clean and avoid conflicts:
@@ -79,7 +73,7 @@ Once you've finished working on your branch and are ready to merge your changes,
 git push origin [your-branch-name]
 ```
 
-Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday October 13 at 11:59**
+Open a pull request on GitHub to get your code reviewed and merged when you're done. Please submit you pull request by **Sunday February 9 at 11:59**
 
 ### Install Dependencies
 
