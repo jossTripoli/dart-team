@@ -46,6 +46,9 @@ We recommend using Visual Studio Code (VS Code) as your code editor. You should 
 - **npm Intellisense**: Auto-imports for npm modules in JavaScript and TypeScript files.
 - **JavaScript and TypeScript Nightly**: Get the latest TypeScript and JavaScript versions.
 - **next.nav**: Visualizes Next.js file based routing.
+- **Error Lens**: Highlight lines containing diagnostics & appends diagnostic as text to the end of the line
+- **Prisma**: Adds syntax highlighting, linting, code completion, formatting, jump-to-definition and more for Prisma Schema files.
+- **Next JS/TS Snippets**: Next JS/TS Snipets for VScode Designed to be simple, short and powerfull
 - **GitHub Copilot**: AI-based code completion tool (Available for free for students through the [GitHub Student Developer Pack](https://education.github.com/pack/join)).
 
 ### Clone the Repository
