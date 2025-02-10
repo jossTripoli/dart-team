@@ -24,14 +24,14 @@ const interests = [
           "Badminton",
           "Swimming"
         ]
-  },
-  {
-    title: "Favorite Artists",
-    items: [
-      { name: "Amit Trivedi", genre: "Bollywood" },
-      { name: "Shaan", genre: "Bollywood" },
-    ],
-  },
+      },
+      {
+        title: "Favorite Artists",
+        items: [
+        { name: "Amit Trivedi", genre: "Bollywood" },
+        { name: "Shaan", genre: "Bollywood" },
+        ],
+      },
 ];
 
 export default function Shubham() {
