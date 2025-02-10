@@ -15,6 +15,7 @@ export const Header = () => {
         <Link href="/team/kriish" className="text-white hover:text-gray-300 transition-colors duration-200">Kriish</Link>
         <Link href="/team/benjamin" className="text-white hover:text-gray-300 transition-colors duration-200">Benjamin</Link>
         <Link href="/team/erick" className="text-white hover:text-gray-300 transition-colors duration-200">Erick</Link>
+        <Link href="/team/shubham" className="text-white hover:text-gray-300 transition-colors duration-200">Shubham</Link>
       </nav>
     </header>
   );
