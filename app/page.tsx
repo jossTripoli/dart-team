@@ -14,6 +14,7 @@ const teamMembers = [
   { name: 'Benjamin', email: 'bdfarhi@buffalo.edu', path: '/team/benjamin' },
   { name: 'Erick', email: 'erick.tepan124@gmail.com', path: '/team/erick' },
   { name: 'Shubham', email: 'ssoni4@buffalo.edu', path: '/team/shubham' },
+  { name: 'Hazel', email: 'hazelmah@buffalo.edu', path: '/team/hazel' },
 ];
 
 
